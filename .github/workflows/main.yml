@@ -16,4 +16,4 @@ jobs:
                 CLIENT_CANARY_FLAG: "--canary"
                 CLIENT_VM_PARAMS: "-Denv=qa"
             with:
-                cli_args: --canary
+                cli_args: ""
