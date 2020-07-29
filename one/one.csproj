@@ -47,9 +47,9 @@
     </ItemGroup>
     <ItemGroup>
 
-        <ProjectReference Include="..\Foobar.Services\Foobar.Services.csproj" />
+        <ProjectReference Include="..\Emis.Services\Emis.Services.csproj" />
 
-        <ProjectReference Include="..\Foobar.Data\Foobar.Data.csproj" />
+        <ProjectReference Include="..\Emis.Data\Emis.Data.csproj" />
 
     </ItemGroup>
     <ItemGroup>

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+
+        <ProjectGuid>{59654a48-605e-4be3-806f-5ea843cf67f4}</ProjectGuid>
+
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    </PropertyGroup>
+
+    <ItemGroup>
+
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+
+        <PackageReference Include="AutoMapper " Version="10.0.0" />
+
+    </ItemGroup>
+    <ItemGroup>
+
+        <ProjectReference Include="..\Foobar.Services\Foobar.Services.csproj" />
+
+        <ProjectReference Include="..\Foobar.Data\Foobar.Data.csproj" />
+
+    </ItemGroup>
+    <ItemGroup>
+
+        <Compile Include="..\CodeAnalysis\GlobalSupressions.cs" />
+
+    </ItemGroup>
+
+</Project>
